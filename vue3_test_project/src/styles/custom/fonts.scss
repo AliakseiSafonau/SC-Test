@@ -1,0 +1,45 @@
+$gothic-bold-font-path: "../assets/fonts/gothic_bold";
+$gothic-regular-font-path: "../assets/fonts/gothic_regular";
+$roboto-regular-font-path: "../assets/fonts/roboto_regular";
+$roboto-medium-font-path: "../assets/fonts/roboto_medium";
+
+
+@font-face {
+    src: url('#{$gothic-bold-font-path}/gothic_a1_bold.eot');
+    src: url('#{$gothic-bold-font-path}/gothic_a1_bold.woff2') format('woff2'),
+        url('#{$gothic-bold-font-path}/gothic_a1_bold.woff') format('woff'),
+        url('#{$gothic-bold-font-path}/gothic_a1_bold.ttf') format('truetype');
+    font-family: 'GothicBold';
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    src: url('#{$gothic-regular-font-path}/gothic_a1_regular.eot');
+    src: url('#{$gothic-regular-font-path}/gothic_a1_regular.woff2') format('woff2'),
+        url('#{$gothic-regular-font-path}/gothic_a1_regular.woff') format('woff'),
+        url('#{$gothic-regular-font-path}/gothic_a1_regular.ttf') format('truetype');
+    font-family: 'GothicRegular';
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    src: url('#{$roboto-regular-font-path}/roboto_regular.eot');
+    src: url('#{$roboto-regular-font-path}/roboto_regular.woff2') format('woff2'),
+        url('#{$roboto-regular-font-path}/roboto_regular.woff') format('woff'),
+        url('#{$roboto-regular-font-path}/roboto_regular.ttf') format('truetype');
+    font-family: 'RobotoRegular';
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    src: url('#{$roboto-medium-font-path}/roboto-medium.eot');
+    src: url('#{$roboto-medium-font-path}/roboto-medium.woff2') format('woff2'),
+        url('#{$roboto-medium-font-path}/roboto-medium.woff') format('woff'),
+        url('#{$roboto-medium-font-path}/roboto-medium.ttf') format('truetype');
+    font-family: 'RobotoMedium';
+    font-style: normal;
+    font-weight: 500;
+}

@@ -1,0 +1,12 @@
+@import './custom/colors';
+@import './custom/fonts';
+@import './custom/gutters';
+
+@import './base/base';
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+);
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
